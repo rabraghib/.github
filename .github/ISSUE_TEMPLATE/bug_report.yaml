@@ -46,14 +46,14 @@ body:
     required: false
 - type: checkboxes
   attributes:
-    label: ''
+    label: Is there an existing issue for this?
     options:
     - label: I have searched the existing issues
       required: true
 - type: checkboxes
   id: terms
   attributes:
-    label: ''
+    label: Code of Conduct
     options:
       - label: I agree to follow this project's [Code of Conduct](https://github.com/rabraghib/.github/blob/main/CODE_OF_CONDUCT.md)
         required: true
